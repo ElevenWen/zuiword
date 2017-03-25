@@ -1,0 +1,375 @@
+body{
+    background: #33312E;
+}
+.citywalk_header_nav{
+    min-width:1160px;
+    height:140px;
+    border-bottom:2px solid #45c79f;
+    background: white;
+}
+.citywalk_header_nav_wrap{
+    height:80px;
+    padding:5px 0;
+    /*background: deeppink;*/
+}
+.citywalk_header_nav_unit{
+    height:40px;
+    padding:20px 0;
+    margin:0 auto;
+}
+.citywalk_header_logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 115px;
+}
+.citywalk_header_nav_unit a img{
+    width:118px;
+    height:34px;
+}
+.citywalk_header_search{
+    width:683px;
+    height:40px;
+    margin-left:60px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    /*background: deeppink;*/
+}
+.citywalk_header_search_form{
+    width:683px;
+    height:40px;
+}
+.citywalk_header_search_form input{
+    font-size: 100%;
+    color: #636363;
+    outline: none;
+}
+.citywalk_header_search_ipts{
+    width:683px;
+    height:40px;
+}
+.citywalk_header_search_ipts i{
+    width:18px;
+    height:22px;
+    margin:22px 0 0 14px;
+    position: absolute;
+    top:-12px;
+    color: #BBBBBB;
+    font-size:20px;
+    z-index: 2;
+}
+.header_search_ipts_text{
+    width:615px;
+    height:40px;
+    padding:0 25px 0 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+    /*margin-top:-80px;*/
+    position: relative;
+    /*top:-20px;*/
+}
+.link_unit{
+    width:200px;
+    height:26px;
+    margin-left:65px;
+    display: inline-block;
+    vertical-align: middle;
+    /*padding-left:150px;*/
+    position: relative;
+    left:700px;
+    top:-30px;
+}
+.link_unit a{
+    text-decoration: none;
+    color: #C0C0C0;
+}
+.link_unit a i{
+    color:#109435;
+}
+.link_unit a:hover .link_unit_text{
+    color: #109435;
+}
+.head_wrap{
+    width:1160px;
+    height:50px;
+    margin:0 90px;
+    background: white;
+}
+.head_wrap_ul li{
+    float: left;
+    text-align: center;
+}
+#head_wrap_ul_a1{
+    width:100px;
+    display: block;
+    border-bottom: 2px solid white;
+}
+.head_wrap_ul li a{
+    display: block;
+    width:84px;
+    height:48px;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    color: #323232;
+    margin: 0 8px;
+    font-size:14px;
+    line-height:48px;
+    text-align: center;
+    /*padding-left:20px;*/
+}
+/*.em_img{*/
+    /*width:37px;*/
+    /*height:12px;*/
+    /*display: block;*/
+/*}*/
+/*head_wrap_ul_a2 em img{*/
+    /*width:37px;*/
+    /*height:12px;*/
+    /*display: block;*/
+/*}*/
+.head_wrap_ul li a:hover{
+    border-bottom: 2px solid #45C79F;
+    color: #45C79F;
+}
+
+.head_wrap_ul_a1 i{
+    font-size:12px;
+    color:#C0C0C0;
+}
+.citywalk_module_img{
+    width:1349px;
+    height:420px;
+    background: url("../img/banner1-black-img1.jpg") no-repeat center;
+}
+/*图片下的导航栏*/
+.body_nav{
+    min-width: 1160px;
+    height:96px;
+    padding:4px 20px 0 27px;
+    margin:-1px 95px 0 95px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.condition_line{
+    width:1111px;
+    height:78px;
+    padding-top:15px;
+    white-space: nowrap;
+}
+#condition_title{
+    width:90px;
+    height:22px;
+    padding-top:1px;
+    display: inline-block;
+    line-height:22px;
+    vertical-align: top;
+    font-size: 14px;
+    color: #000;
+}
+.condition_all{
+    width:40px;
+    height:22px;
+    background: #45C79F;
+    color: #fff;
+    /*display: inline-block;*/
+    line-height:23px;
+    text-align: center;
+    margin-top:-20px;
+    margin-left:80px;
+    /*padding-top:1px;*/
+    font-size:14px;
+}
+.condition_list{
+    width:980px;
+    height:74px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 980px;
+    float: right;
+    margin-top:-20px;
+}
+.condition_ul li{
+    width:40px;
+    height:22px;
+    padding-top:1px;
+    margin:0 0 14px 10px;
+    font-size:14px;
+    float: left;
+    color: #636363;
+}
+.condition_ul li:hover{
+    color: #45C79F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.condition_ul li:nth-child(7),.condition_ul li:nth-child(14){
+    width:58px;
+}
+.condition_ul li:nth-last-child(2){
+    width:58px;
+}
+
+/*json数据样式*/
+.citywalk_productlist{
+    width: 1349px;
+    height: 1824px;
+    background: #33312e;
+    padding: 0px 0px 0px 94px;
+}
+.module_bigCard_wrap{
+    margin: 25px auto 0;
+}
+.moudle_bigcard_item{
+    width:1158px;
+    height:270px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.moudle_bigcard_item img{
+    width:400px;
+    height:270px;
+    display: block;
+}
+.div_right_wrap{
+    width: 758px;
+    height: 270px;
+    float: right;
+    font-size: 16px;
+    margin-top:-270px;
+}
+.div_right_span{
+    width:28px;
+    height:30px;
+    padding:0 5px;
+    border:1px solid #ddd;
+    margin:12px 0 12px 20px;
+    display: block;
+    font-size:14px;
+    text-align: center;
+    line-height:30px;
+}
+.div_right_bigcard_info{
+    width:172px;
+    height:52px;
+    line-height: 52px;
+    font-size: 14px;
+    color: #666;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.div_right_bigcard_info span{
+    color: #45C79F;
+    padding: 0 5px 0 7px;
+}
+.bigcard_h2{
+    width:718px;
+    height:60px;
+    padding:0 20px;
+    line-height: 30px;
+    font-size: 26px;
+    overflow: hidden;
+    text-align: left;
+    font-weight: 400;
+}
+.bigcard_h2 a{
+    text-decoration: none;
+    color: #000;
+}
+.infolist{
+    width:460px;
+    height:88px;
+    padding:10px 0 0 25px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+.infolist li{
+    height:24px;
+    height:24px;
+    font-size:14px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bigcard_price{
+    width:127px;
+    height:38px;
+    padding:44px 20px 0 0;
+    max-width: 246px;
+    overflow: hidden;
+    float: right;
+    font-size: 14px;
+    color: #999;
+    line-height: 38px;
+}
+.bigcard_old_price{
+    text-decoration: line-through;
+}
+.bigcard_price em{
+    font-size: 40px;
+    color: #ff7362;
+    /*padding: 0 4px 0 12px;*/
+    font-weight: 300;
+    position: relative;
+    top: 3px;
+    vertical-align: 2px;
+}
+.bigcard_red_buy{
+    width:758px;
+    height:56px;
+    font-size:14px;
+    margin-top:100px;
+}
+.bigcard_red_buy a{
+    text-decoration: none;
+    clear: both;
+    float: right;
+    width:174px;
+    height:56px;
+    background-color: #ff7362;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 56px;
+}
+.page_wrap{
+    min-width: 1160px;
+    margin:0 auto;
+}
+.ui_page{
+    width:118px;
+    height:24px;
+    float: right;
+    font-size: 14px;
+    margin-right:150px;
+}
+.ui_page a{
+    text-decoration: none;
+    color: #ccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ui_page_a1{
+    width:8px;
+    height:24px;
+    padding:0 12px;
+    background: #00b081;
+    line-height:24px;
+}
+.ui_page_a1:hover{
+    background: #33312E;
+}
+.ui_page_a2:hover{
+    color:#00b081;
+}
+.ui_page_a3:hover{
+    color:#00b081;
+}
+

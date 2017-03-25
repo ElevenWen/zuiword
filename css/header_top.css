@@ -1,0 +1,208 @@
+.qy_header{
+	width: 100%;
+	height: 30px;
+	background: #323232;
+	position: relative;
+}
+.qy_header img{
+	width: 58px;
+	height: 18px;
+	margin:6px 5px 0 30px;
+	float: left;
+}
+.nav .nav_ul .nav_li{
+	float: left;
+	margin-left:26px;
+	color:#C0C0C0;
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+	font-family: "Hiragino Sans GB";
+	font-weight: bold;	
+}
+
+.qy_header .iconfont{
+    font-size: 13px;
+    font-style: normal;
+}
+
+.hidden{
+	width: 180px;
+	height: 110px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+	border-radius: 3%;
+	display: none;
+	margin-top: -3px;
+}
+
+.smallArrows{
+	width: 0;
+	height: 0;
+	border: 5px solid #fff;
+	border-top: 0 none;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	margin-top: -5px;
+	margin-left: 12px;
+}
+.hidden_ul li{
+	padding-left: 15px;
+	text-align: left;
+	line-height: 35px;
+	color: #636363;
+	margin-top: 3px;
+}
+/*.div1{
+	width: 130px;
+	height: 30px;
+	
+}*/
+.hidden_ul li:nth-child(1){
+	margin-top: 5px;
+}
+
+.nav_li_span{
+	color: #10B041;
+	font-family: "Hiragino Sans GB","Microsoft YaHei",SimHei,SimSun,sans-serif;
+	font-size: 14px;
+	float: left;
+	font-weight: bold;	
+	margin-left:26px;
+	line-height: 30px;
+}
+.hidden_yd{
+	width: 130px;
+	height: 210px;
+	background: white;
+	position: absolute;
+	z-index: 2;
+	border-radius: 3%;
+	display: none;
+}
+
+.hidden_yd li{
+	padding-left: 15px;
+	text-align: left;
+	line-height: 35px;
+	color: #636363;
+}
+.fun{
+	width: 243px;
+	height: 30px;
+	float: left;
+	margin-left: 250px;
+	/*position: relative;*/
+}
+.fun a{
+	text-decoration: none;
+}
+
+/*搜索容器*/
+.nav_search{
+    float: left;
+    position: relative;
+    left: 180px;
+}
+.input{
+    width: 0px;
+    height: 20px;
+    padding: 0 0px 0 0px;
+    border-radius: 3px;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+    transition: all 0.2s;
+}
+.input input{
+    width: 168px;
+    height: 20px;
+    padding: 0 23px 0 9px;
+    border: 0;
+    font-size: 14px;
+    outline: none;
+    float: left;
+}
+.search_logo{
+    width: 20px;
+    height: 20px;
+    color: silver;
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.search_logo i{
+	position: relative;
+	z-index: 3;
+}
+.search_logo:hover .input{
+	width: 200px;
+}
+
+
+.login_icon{
+	width: 180px;
+	height: 20px;
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 220px;
+	color:#C0C0C0;
+	/*text-align: left;*/
+	line-height: 20px;
+}
+
+ .login_icon i{
+	margin: 5px;
+	font-size: 16px;
+	color:#C0C0C0;
+}
+.fun i:nth-last-child(1){
+	font-size: 18px;
+}
+.fun a:nth-last-child(1){
+	color:#C0C0C0;
+	font-family: "Hiragino Sans GB","Microsoft YaHei",SimHei,SimSun,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 2px;
+}
+.fun a:nth-last-child(2){
+	color:#C0C0C0;
+	font-family: "Hiragino Sans GB","Microsoft YaHei",SimHei,SimSun,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nav .nav_ul .nav_li:hover{
+	color: #10B041;
+	cursor: pointer;
+}
+.nav .nav_ul .nav_li_shequ:hover .hidden{
+	display: block;
+}
+.div1 li:hover{
+	background: lightgreen;
+}
+.div2 li:hover{
+	background: lightgreen;
+}
+.div3 li:hover{
+	background: lightgreen;
+}
+.nav .nav_ul .nav_li_yuding:hover .hidden_yd{
+	display: block;
+}
+.hidden_ul_yd li:hover{
+	background: lightgreen;
+}
+.login_icon a i:hover{
+	color: #10B041;
+}
+.fun .login_icon .a1:hover{ 
+	color: #10B041;
+}
+

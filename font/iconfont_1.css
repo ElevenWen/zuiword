@@ -1,0 +1,60 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1489221753030'); /* IE9*/
+  src: url('iconfont.eot?t=1489221753030#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1489221753030') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1489221753030') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1489221753030#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*如果要使用另外的字体，则按照上面（考虑了兼容性，所以看起来多一些）或者下面（没怎么考虑兼容性）
+ * 的格式再添加一次@font-face 和 .zuiworld 就行*/
+@font-face {
+	font-family: "zuiworld";
+  src: url('../icon-font/zworld.ttf');
+}
+.zuiworld{
+	font-family:"zuiworld" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+	font-family: "icon";
+  src: url('../icon-font/iconfont.ttf');
+}
+.icon{
+	font-family:"icon" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+/*可以按照下面的.ico添加一个before来写，content里的内容就是图片里的编码*/
+.icon-gouwuche:before { content: "\e6b5"; }
+
+.icon-xia:before { content: "\e601"; }
+
+.icon-qie:telphone { content: "\e6bd"; }
+
+/*.icon-weibo:before { content: "\e60c"; }
+
+.icon-weixin:before { content: "\e612"; }*/
+
+/*也可以直接在标签中间添加编码，编码一定要对应*/
+/*<i class="zuiworld">&#xe600;</i>*/
+
